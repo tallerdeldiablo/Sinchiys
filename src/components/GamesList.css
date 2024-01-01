@@ -1,0 +1,33 @@
+/* Estilos para el contenedor de la lista de juegos */
+.games-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--color-cream); /* Usando una variable de color de tu paleta */
+}
+
+/* Estilo para cada elemento de juego individual en la lista */
+.game-item {
+  background-color: var(--color-terracotta-red); /* Color terracota para el fondo */
+  color: var(--color-neutral-white); /* Texto en blanco */
+  border: 1px solid var(--color-earth-brown); /* Borde marrón */
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 10px 0;
+  width: 80%; /* Ajusta según la anchura deseada */
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.game-item:hover {
+  transform: translateY(-5px); /* Efecto de elevación al pasar el mouse */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destacar */
+}
+
+/* Estilos para los enlaces dentro de los elementos de juego */
+.game-item a {
+  text-decoration: none;
+  color: inherit; /* Hereda el color del elemento padre */
+  font-weight: bold;
+}

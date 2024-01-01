@@ -1,0 +1,19 @@
+.memory-game {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Ajustar según el número de tarjetas */
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .memory-game div {
+    background-color: #ddd;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
