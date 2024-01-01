@@ -1,3 +1,19 @@
+/*
+body {
+  background-color: #a89b83;  New background color 
+  margin: 0;
+  padding: 0;
+   Add other global styles as needed 
+}
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-soft-cream); /* Set your desired color here */
+  /* Add any other global styles you need */
+}
+
 .App {
   text-align: center;
 }
@@ -27,6 +43,23 @@
 .App-link {
   color: #61dafb;
 }
+
+
+
+.app-container {
+  background-color: #a89b83; 
+  min-height: 100vh;
+
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centra los elementos verticalmente */
+  align-items: center; /* Centra los elementos horizontalmente */
+  min-height: calc(100vh - 120px); /* Ajusta esto según la altura de tu navbar y footer */
+  /* Asegúrate de restar la altura total del navbar y del footer */
+}
+
 
 @keyframes App-logo-spin {
   from {

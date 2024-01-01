@@ -1,0 +1,38 @@
+.character-detail-page {
+  text-align: center; /* Asegura que el título esté centrado */
+  margin: 20px;
+}
+
+.character-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.character-detail-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.character-detail-image {
+  width: 250px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.text-description {
+  background-image: url('../assets/img/paper.png');
+  background-size: cover;
+  padding: 15%;
+  box-sizing: border-box;
+  width: 60%;
+  max-width: 731px;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.character-description {
+  font-size: 18px;
+}

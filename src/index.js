@@ -1,10 +1,14 @@
+// src/index.js
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import './index.css'; // Global styles for your app
+import App from './App'; // The root component of your React application
 import reportWebVitals from './reportWebVitals';
 
+// Create a root.
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+// Initial render: Render the App component to the DOM.
 root.render(
   <React.StrictMode>
     <App />

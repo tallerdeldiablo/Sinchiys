@@ -1,0 +1,93 @@
+
+:root {
+  --color-earth-brown: #5C4033;
+  --color-tan: #D2B48C;
+  --color-rust: #B7410E;
+  --color-gold: #DAA520;
+  --color-terracotta-red: #CB4F3F;
+  --color-sky-blue: #87CEEB;
+  --color-teal: #008080;
+  --color-neutral-white: #FFFFFF;
+  --color-cream: #95735fd7;
+
+  --color-soft-cream: #eed4b3; /* New background color also som colors for nava bar works here sdqadasdasda */
+}
+
+.home-container {
+  text-align: center;
+  padding: 20px;
+  background-color: var(--color-soft-cream); /* Using the new soft cream color */
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 800px; /* Adjust based on your design */
+  /* Other styling for hero-section */
+}
+
+.hero-image {
+  max-width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  /* Additional styling for hero-image */
+}
+.personajes-container, .videos-container {
+  background-color: var(--color-soft-cream);
+  /* Apply other common styles if needed */
+}
+
+@media (max-width: 600px) {
+  .menu-container {
+    flex-direction: column;
+  }
+
+  .menu-item {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+.hero-section {
+  margin-bottom: 30px;
+}
+
+.hero-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between menu items */
+  margin-top: 20px;
+}
+
+.menu-item {
+  background-color: var(--color-terracotta-red); /* Updated menu item background color */
+  color: var(--color-neutral-white); /* Updated menu item text color */
+  padding: 15px 25px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: background-color 0.3s;
+}
+
+.menu-item:hover {
+  background-color: var(--color-gold); /* Updated hover state background color */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 600px) {
+  .menu-container {
+    flex-direction: column;
+  }
+
+  .menu-item {
+    width: 100%;
+    margin: 10px 0;
+  }
+}

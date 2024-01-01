@@ -1,0 +1,85 @@
+/* Navbar.css */
+:root {
+  /* ... other color variables ... */
+  --color-light-brown: #9f6546; /* This is just an example light brown color */
+  --color-earth-brown: #5C4033; /* Dark brown for text */
+  --color-earth-brown: #5C4033; /* Earth brown for text */
+  /* --color-darker-light-brown: #705648; Darker shade of light brown for background */
+  --color-gold: #DAA520; /* Gold for hover effects */
+  --color-neutral-white: #ffefe3b6; /* White for other text if needed */
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+ /*  background-color: var(--color-darker-light-brown); */
+}
+
+.nav-item {
+  padding: 10px;
+  text-decoration: none;
+  color: var(--color-earth-brown); /* Dark brown color for the menu text */
+  font-weight: bold;
+
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: var(--color-cream);
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo img {
+  height: 50px; /* Adjust as needed */
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-item:hover {
+  color: var(--color-gold);
+}
+
+.menu-icon {
+  display: none;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links-mobile {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+  }
+
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    font-size: 2em;
+    color: var(--color-earth-brown);
+  }
+
+  .navbar.active .nav-links-mobile {
+    display: flex;
+  }
+
+  .nav-item {
+    margin: 10px 0;
+  }
+}
