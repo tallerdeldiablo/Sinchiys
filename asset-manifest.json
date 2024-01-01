@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Sinchiys/static/css/main.7903167c.css",
+    "main.js": "/Sinchiys/static/js/main.af47b9df.js",
+    "static/js/787.a024fedb.chunk.js": "/Sinchiys/static/js/787.a024fedb.chunk.js",
+    "static/media/paper.png": "/Sinchiys/static/media/paper.04f296cd514268ebc2bc.png",
+    "static/media/portada.png": "/Sinchiys/static/media/portada.9fa0293bbd51814c769b.png",
+    "static/media/anton.png": "/Sinchiys/static/media/anton.061b867dccd1e258755c.png",
+    "static/media/atahualpa.png": "/Sinchiys/static/media/atahualpa.0e6c662524751321ca56.png",
+    "static/media/ruminahui.png": "/Sinchiys/static/media/ruminahui.da9cb0843fdb216c4ee6.png",
+    "static/media/pintag.png": "/Sinchiys/static/media/pintag.4d43abbc2ced55de968b.png",
+    "static/media/eloy.png": "/Sinchiys/static/media/eloy.bca4567ab6beacaf39e9.png",
+    "static/media/quilago.png": "/Sinchiys/static/media/quilago.6e7f6dac25d90c21c379.png",
+    "static/media/logo.png": "/Sinchiys/static/media/logo.8b1ab2de95e2e57d58ba.png",
+    "index.html": "/Sinchiys/index.html",
+    "main.7903167c.css.map": "/Sinchiys/static/css/main.7903167c.css.map",
+    "main.af47b9df.js.map": "/Sinchiys/static/js/main.af47b9df.js.map",
+    "787.a024fedb.chunk.js.map": "/Sinchiys/static/js/787.a024fedb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7903167c.css",
+    "static/js/main.af47b9df.js"
+  ]
+}
