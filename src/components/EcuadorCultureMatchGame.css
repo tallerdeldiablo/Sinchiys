@@ -1,0 +1,10 @@
+.game-container {
+  text-align: center;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Adjust based on the number of cards */
+  gap: 10px;
+  margin:
+}

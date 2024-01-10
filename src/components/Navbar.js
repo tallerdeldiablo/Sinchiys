@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-logo">
         <Link to="/">
-          <img src={logoImage} alt="SinchiyAwka" /> {/* Use the imported logo image here */}
+          <img src={logoImage} alt="SinchiyAwka Logo" />
         </Link>
       </div>
       <ul className="nav-links">
@@ -17,7 +17,6 @@ const Navbar = () => {
         <li><Link to="/personajes" className="nav-item">Personajes</Link></li>
         <li><Link to="/juegos" className="nav-item">Juegos</Link></li>
         <li><Link to="/videos" className="nav-item">Videos</Link></li>
-
       </ul>
     </nav>
   );

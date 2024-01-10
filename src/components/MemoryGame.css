@@ -1,19 +1,40 @@
+/* Agrega estos estilos en tu archivo CSS o en línea dentro del componente si prefieres */
 .memory-game {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Ajustar según el número de tarjetas */
-    gap: 10px;
-    max-width: 400px;
-    margin: auto;
-  }
-  
-  .memory-game div {
-    background-color: #ddd;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-    cursor: pointer;
-    border-radius: 10px;
-  }
-  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.card {
+  width: 150px; /* Tamaño inicial de las cartas */
+  height: 200px; /* Tamaño inicial de las cartas */
+  max-width: 300px; /* Tamaño máximo de las cartas */
+  max-height: 400px; /* Tamaño máximo de las cartas */
+  border: 2px solid #ccc; /* Borde de las cartas */
+  border-radius: 8px; /* Borde redondeado */
+  padding: 10px; /* Espaciado interno */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transiciones para animaciones */
+}
+
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card.flipped {
+  transform: rotateY(180deg); /* Voltea la carta cuando está abierta */
+}
+
+.card.matched {
+  cursor: default; /* Desactiva el clic en cartas emparejadas */
+  pointer-events: none; /* Desactiva eventos en cartas emparejadas */
+}
+
+.card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Agrega sombra al pasar el mouse */
+}
