@@ -9,7 +9,7 @@ import TriviaGame from './components/TriviaGame';
 import GamesList from './components/GamesList';
 import MemoryGame from './components/MemoryGame';
 import GuessCharacterGame from './components/GuessCharacterGame';
-
+import Juegos from './components/Juegos';
 import Footer from './components/Footer';
 
 import './App.css';
@@ -22,6 +22,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/personajes" element={<Personajes />} />
+          <Route path="/juegos" element={<Juegos />} />
           <Route path="/personajes/:characterId" element={<CharacterDetailPage />} />
           <Route path="/juegos" element={<GamesList />} />
           <Route path="/juegos/trivia" element={<TriviaGame />} />
